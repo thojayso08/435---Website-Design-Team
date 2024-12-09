@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Basic -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <!-- Site Metas -->
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+      <title>Stage Fright - The Band</title>
+      <!-- slider stylesheet -->
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+      <!-- fonts style -->
+      <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+      <!-- Custom styles for this template -->
+      <link href="css/style.css" rel="stylesheet" />
+      <!-- responsive style -->
+      <link href="css/responsive.css" rel="stylesheet" />
+     <!-- favicon icon-->
+  	<link rel="icon" type="image/x-icon" href="../images/logo.png">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="hero_area">
+         <!-- header section strats -->
+         <header class="header_section">
+            <div class="container">
+               <div class="header_nav">
+                  <a class="navbar-brand brand_desktop" href="index.html">
+                  <img src="../images/stage-fright-logo.jpeg" style="margin-top: -15px; width: 65px; height: 65px;" alt="" />
+                  </a>
+                  <div class="main_nav">
+                     <div class="top_nav">
+                        <ul class=" ">
+                           <li class="">
+                              <a class="" href="">
+                              <img src="images/telephone.png" alt="" />
+                              <span>1(208)671-9386</span>
+                              </a>
+                           </li>
+                           <li class="">
+                              <a class="" href="">
+                              <img src="images/mail.png" alt="" />
+                              <span>stage.fright@info.com</span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="bottom_nav">
+                        <nav class="navbar navbar-expand-lg custom_nav-container">
+                           <a class="navbar-brand brand_mobile" href="index.html">
+                           <img src="" alt="" />
+                           </a>
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                                 <ul class="navbar-nav  ">
+                                    <li class="nav-item active">
+                                       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a class="nav-link" href="about.html"> About </a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a class="nav-link" href="class.html"> Tour Dates </a>
+                                    </li>
+                                   <li class="nav-item">
+                                      <a class="nav-link" href="shop.html"> Shop </a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a class="nav-link" href="tickets.html"> Tickets </a>
+                                   </li>
+                                    <li class="nav-item">
+                                       <a class="nav-link" href="blog.html">Contact Us</a>
+                                    </li>
+                                 </ul>
+                                 <form class="form-inline">
+                                 </form>
+                              </div>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- end header section -->
+  </div>
+  <style>
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: linear-gradient(to bottom,  #6495ED 0%, #63f74f 100%);
+}
+    
+body {
+  font-family: "Poppins", sans-serif;
+  color: #040000;
+  background-color: #6495ED;
+}
+
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: #3e3e3e;
+  border-radius: 15px;
+}
+
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #4d4d4f;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.screen-header-left {
+  margin-right: auto;
+}
+
+.screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: white;
+}
+
+.screen-header-button.close {
+  background: #ed1c6f;
+}
+
+.screen-header-button.maximize {
+  background: #e8e925;
+}
+
+.screen-header-button.minimize {
+  background: #74c54f;
+}
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #63f74f;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #63f74f;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #888;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #63f74f;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: #b9134f;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #ffa4bd;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.credits-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dribbble {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
+  </style>
+<div class="background">
+  <div class="container">
+    <div class="screen">
+      <div class="screen-header">
+        <div class="screen-header-left">
+          <div class="screen-header-button close"></div>
+          <div class="screen-header-button maximize"></div>
+          <div class="screen-header-button minimize"></div>
+        </div>
+        <div class="screen-header-right">
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span>CONTACT</span>
+            <span>US</span>
+          </div>
+          <div class="app-contact">1(208)671-9386 <br> stage.fright@info.com</div>
+        </div>
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="NAME">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="EMAIL">
+            </div>
+            <div class="app-form-group message">
+              <input class="app-form-control" placeholder="MESSAGE">
+            </div>
+            <div class="app-form-group buttons">
+              <button class="app-form-button">CANCEL</button>
+              <button class="app-form-button">SEND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+            <script>
+               function openNav() {
+                 document.getElementById("myNav").classList.toggle("menu_width");
+                 document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style");
+               }
+            </script>
+            <!-- owl carousel script -->
+            <script type="text/javascript">
+               $(".owl-carousel").owlCarousel({
+                 loop: true,
+                 margin: 10,
+                 nav: true,
+                 navText: [],
+                 autoplay: true,
+                 autoplayHoverPause: true,
+                 responsive: {
+                   0: {
+                     items: 1
+                   },
+                   600: {
+                     items: 2
+                   },
+                   1000: {
+                     items: 2
+                   }
+                 }
+               });
+               
+               
+               $(".owl_carousel1").owlCarousel({
+                 loop: true,
+                 margin: 25,
+                 nav: true,
+                 navText: [],
+                 autoplay: true,
+                 autoplayHoverPause: true,
+                 responsive: {
+                   0: {
+                     items: 1
+                   },
+                   600: {
+                     items: 2
+                   },
+                   1000: {
+                     items: 2
+                   }
+                 }
+               });
+            </script>
+         </div>
+         <!-- end owl carousel script -->
+         <div class="grey" style="background-color: #D3D3D3; height: 10px;"></div>
+         <footer class="footer-distributed" style="width: 100%;">
+            <div class="footer-left">
+               <img src="../images/stage-fright-logo.jpeg" alt="logo" style="width: 150px; height: 150px;">        
+                            <p class="footer-links">
+                  <a href="index.html" class="link-1">Home</a>
+                  <a href="services.html">About</a>
+                  <a href="contact.html">Tour Dates</a>
+                  <a href="shop.html">Shop</a>
+                  <a href="tickets.html">Tickets</a>
+                  <a href="gallery.html">Contact Us</a>
+               </p>
+               <p class="footer-company-name">Stage Fright © 2024</p>
+            </div>
+            <div class="footer-center">
+               <div>
+                  <i class="fa fa-map-marker"></i>
+                  <p><span>555 Scott Ave </span> Declo, Idaho 83323</p>
+               </div>
+               <div>
+                  <i class="fa fa-phone"></i>
+                  <p>(208)671-9386</p>
+               </div>
+               <div>
+                  <i class="fa fa-envelope"></i>
+                  <p><a href="mailto:office@greenlonllc.com">stage.fright@info.com</a></p>
+               </div>
+            </div>
+            <div class="footer-right">
+            </div>
+         </footer>
+      </div>
+      </div>
+   </body>
+</html>
